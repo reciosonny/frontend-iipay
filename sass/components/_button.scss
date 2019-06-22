@@ -39,6 +39,7 @@
 
     &__hero {
         border: 2px solid #fff;
+        text-transform: capitalize;
 
         &:hover {
             background: #ffffff;
@@ -52,6 +53,7 @@
         margin-right: 5px;
         background: #FFD61A !important;
         border: 2px solid #FFD61A;
+        text-transform: capitalize;
 
         i {
             transition: all .5s ease;

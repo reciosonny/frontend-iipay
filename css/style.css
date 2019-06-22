@@ -172,7 +172,8 @@ ul {
     -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1); }
   .btn__hero {
-    border: 2px solid #fff; }
+    border: 2px solid #fff;
+    text-transform: capitalize; }
     .btn__hero:hover {
       background: #ffffff;
       color: #18232b;
@@ -180,7 +181,8 @@ ul {
   .btn__video {
     margin-right: 5px;
     background: #FFD61A !important;
-    border: 2px solid #FFD61A; }
+    border: 2px solid #FFD61A;
+    text-transform: capitalize; }
     .btn__video i {
       transition: all .5s ease;
       margin-right: 7px; }
