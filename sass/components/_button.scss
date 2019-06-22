@@ -1,0 +1,99 @@
+.btn {
+    display: inline-block;
+    padding: .8em 1em;
+    color: #fff;
+    background-color: #444;
+    font-size: 1em;
+    line-height: 1;
+    letter-spacing: .14em;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    background-image: none;
+    border: none;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-weight: 600;
+    -webkit-font-smoothing: subpixel-antialiased;
+
+    
+    &--medium {
+        font-size: 15px;
+        padding: 26px 0 27px;
+        min-width: 270px;
+    }
+    &--large {
+        font-size: 15px;
+        padding: 26px 0 27px;
+        width: 100%;
+    }
+    &--yellow {
+        background-color: #ffd61a;
+        color: #063851;
+        -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+        box-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+    }
+    
+    
+
+    &__hero {
+        border: 2px solid #fff;
+
+        &:hover {
+            background: #ffffff;
+            color: #18232b;
+            transition: all 0.5s ease;
+        }
+    }
+    
+
+    &__video {
+        margin-right: 5px;
+        background: #FFD61A !important;
+        border: 2px solid #FFD61A;
+
+        i {
+            transition: all .5s ease;
+            margin-right: 7px;
+        }
+
+        &:hover {
+            background: #0c869c!important;
+            color: #ffffff;
+            border: 2px solid white;
+            transition: all .5s ease;
+
+            i {
+                transform: rotate(90deg);
+            }
+        }
+    }
+}
+
+.request-demo-pop {
+    background: #FFD61A;
+    border-radius: 4px 0 0 4px;
+    padding: 14px 15px 10px 15px!important;
+    // margin: 28px 0 39px!important;
+    color: #fff!important;
+    transition: all 0.5s ease;
+    display: inline-block!important;
+    border: 1px solid #FFD61A;
+}
+
+.request-demo-btn-a {
+    margin-left: 0!important;
+    margin-right: 0!important;
+    display: inline-block!important;
+    text-decoration: none!important;
+    color: #ffffff!important;
+    background: #0BA3BF;
+    padding: 6px 25px 10px 15px!important;
+    max-width: 50px;
+    border-radius: 0 4px 4px 0;
+    font-size: 19px;
+    border-top: 5px solid transparent!important;
+    transition: all 0.5s ease;
+}
+
